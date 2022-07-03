@@ -1,7 +1,55 @@
-# Precision Client
-
-### Client: [https://precisionclient.vercel.app/](https://precisionclient.vercel.app/)
-
-### Discord: [https://discord.gg/agFak6frsj](https://discord.gg/agFak6frsj)
-
-**Offline download is in the [Releases](https://github.com/etcherfx/precisionclient/releases) section of this repository.**
+<h2 align="center">Precision Client
+</h2>
+<h3 align="center">The official repository for Precision Client.
+</h3>
+<h4 align="center">Client link: 
+  <a href="https://precisionclient.vercel.app">https://precisionclient.vercel.app
+  </a>
+</h4>
+<h4 align="center">The offline download is located 
+  <a href="https://github.com/etcherfx/precisionclient/releases">here
+  </a>
+</h4>
+<h4 align="center">Join the 
+  <a href="https://discord.gg/agFak6frsj">Discord
+  </a> server for any questions
+</h4>
+<img src="https://media.discordapp.net/attachments/952288902494965811/993174437853679636/unknown.png" alt="alternatetext">
+<h2 align="center">Projects Used
+</h2>
+<p align="center">
+<ul>
+  <li>
+    <a href="https://github.com/LAX1DUDE/eaglercraft">Eaglercraft
+    </a> for the entire project
+  </li>
+  <li>
+    <a href="https://github.com/ayunami2000/ayuncraft">Ayuncraft
+    </a> for the TMI mod and dark GUI texture packs
+  </li>
+  <li>
+    <a href="https://www.planetminecraft.com/texture-pack/reimagined-night-panorama">Reimagined Night Panorama
+    </a> for the main menu panorama
+  </li>
+  <li>Note: If I used your project and forgot to credit you here, please contact me at etcher#1849 on discord
+  </li>
+</ul>
+</p>
+<h2 align="center">Features
+</h2>
+<p align="center">
+<ul>
+  <li>Instant world swapping (faster than eaglercraft by a few miliseconds)
+  </li>
+  <li>Fullbright
+  </li>
+  <li>Smart Disconnect
+  </li>
+  <li>Dynamic FOV toggle
+  </li>
+  <li>8 completed texture packs
+  </li>
+  <li>Note: Unfinished features are not added on the list
+  </li>
+</ul>
+</p>
