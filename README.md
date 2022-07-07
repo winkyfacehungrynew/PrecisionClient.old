@@ -14,7 +14,7 @@
   <a href="https://discord.gg/agFak6frsj">Discord
   </a> server for any questions
 </h4>
-<img src="https://media.discordapp.net/attachments/952288902494965811/993174437853679636/unknown.png" alt="alternatetext">
+<img src="https://cdn.discordapp.com/attachments/952288902494965811/993937251975307385/unknown.png" alt="alternatetext">
 <h2 align="center">Projects Used
 </h2>
 <p align="center">

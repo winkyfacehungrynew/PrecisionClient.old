@@ -15,31 +15,22 @@
     <meta content="en-US" property="og:locale" />
     <meta content="website" property="og:type" />
     <meta content="//precisionclient.vercel.app" property="og:url" />
-    <meta content="https://media.discordapp.net/attachments/952288902494965811/982106643808550972/unknown.png"
+    <meta content="https://cdn.discordapp.com/attachments/952288902494965811/993937251975307385/unknown.png"
         property="og:image" />
     <meta
         content="Precision Client is an instance of Minecraft 1.5.2 that was ported to the web by LAX1DUDE and forked by EtcherFX. This client has custom resource packs and more."
         property="og:description" />
-    <script src="classes.js?t=update1" type="text/javascript"></script>
+    <script src="classes.js" type="text/javascript"></script>
     <script type="text/javascript">
         function texture() {
-            var texturechoice = prompt(
-                "Choose a texture pack:\n- Default 1.5 [1.5]\n- Default 1.16 [1.16]\n- Modified 1.16 [M1.16]\n- 1.16 Dark [1.16D]\n- Default 1.17 [1.17]\n- Modified 1.17 [M1.17]\n- 1.17 Dark [1.17D]\n- Tightfault 1.8 [Tight]\n- Miami Private 1.8 [Miami]\n- Ricefault 1.8 [Rice]\n- More coming soon\nTo select a resource pack, enter the characters from inside the brackets below."
+            const texturechoice = prompt(
+                "Choose a texture pack:\n- Default 1.5 [1.5]\n- Default 1.17 [1.17]\n- Modified 1.17 [M1.17]\n- 1.17 Dark [1.17D]\n- Tightfault 1.8 [Tight]\n- Miami Private 1.8 [Miami]\n- Ricefault 1.8 [Rice] (Not complete)\n- More coming soon\nTo select a resource pack, enter the characters from inside the brackets in the box below."
             );
 
-            var texture = "packs/1.5.epk";
-
-            //1.16 packs
-            if (texturechoice == "1.16") {
-                texture = "packs/1.16.epk";
-            } else if (texturechoice == "M1.16" || texturechoice == "m1.16") {
-                texture = "packs/M1.16.epk";
-            } else if (texturechoice == "1.16D" || texturechoice == "1.16d") {
-                texture = "packs/1.16D.epk";
-            }
+            let texture = "packs/1.5.epk";
 
             //1.17 packs
-            else if (texturechoice == "1.17") {
+            if (texturechoice == "1.17") {
                 texture = "packs/1.17.epk";
             } else if (texturechoice == "M1.17" || texturechoice == "m1.17") {
                 texture = "packs/M1.17.epk";
@@ -68,10 +59,10 @@
                     "CgAACQAHc2VydmVycwoAAAAICAAKZm9yY2VkTU9URAAAAQALaGlkZUFkZHJlc3MBCAACaXAAH3dzczovL3dlYi5hc3NwaXhlbC5uZXQvQ0FQaXhlbC8IAARuYW1lAAhBc3NwaXhlbAAIAApmb3JjZWRNT1REAAABAAtoaWRlQWRkcmVzcwEIAAJpcAAdd3NzOi8vbWMucHJpbWl0dC5kZXYvc3Vydml2YWwIAARuYW1lABJQcmltQ3JhZnQgRmFjdGlvbnMACAAKZm9yY2VkTU9URAAAAQALaGlkZUFkZHJlc3MBCAACaXAAG3dzczovL2Flb24tbmV0d29yay5uZXQvYWVvbggABG5hbWUADEFlb24gTmV0d29yawAIAApmb3JjZWRNT1REAAABAAtoaWRlQWRkcmVzcwEIAAJpcAAkd3NzOi8vc2VhbGNyYWZ0LmRkbnMubmV0OjQ0Mi9zZXJ2ZXJzCAAEbmFtZQAJU2VhbGNyYWZ0AAgACmZvcmNlZE1PVEQAAAEAC2hpZGVBZGRyZXNzAQgAAmlwABR3c3M6Ly9tYy5iMnNlcnZlci50awgABG5hbWUACUIyIFNlcnZlcgAIAApmb3JjZWRNT1REAAABAAtoaWRlQWRkcmVzcwEIAAJpcAAfd3NzOi8vcGxheS52YW5pbGxhY3JhZnRzbXAub3JnLwgABG5hbWUADFZhbmlsbGFDcmFmdAAIAApmb3JjZWRNT1REAAABAAtoaWRlQWRkcmVzcwEIAAJpcAAVd3NzOi8vbWVzcy5ldS5vcmcvczEvCAAEbmFtZQAJTWVzc0NyYWZ0AAgACmZvcmNlZE1PVEQAAAEAC2hpZGVBZGRyZXNzAQgAAmlwAB13c3M6Ly9zdXMuc2hobm93aXNub3R0aGV0aS5tZQgABG5hbWUACEF5dW5ib29tAAA=",
                 ];
                 (function () {
-                    var q = window.location.search;
+                    let q = window.location.search;
                     if (typeof q === "string" && q.startsWith("?")) {
                         q = new URLSearchParams(q);
-                        var s = q.get("server");
+                        const s = q.get("server");
                         if (s) window.minecraftOpts.push(s);
                     }
                 })();
@@ -79,7 +70,6 @@
             });
         }
         texture();
-
     </script>
 </head>
 
