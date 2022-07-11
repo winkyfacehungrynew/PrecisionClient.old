@@ -31,6 +31,18 @@
     <a href="https://www.planetminecraft.com/texture-pack/reimagined-night-panorama">Reimagined Night Panorama
     </a> for the main menu panorama
   </li>
+  <li>
+    <a href="https://vanillatweaks.net/">Vanilla Tweaks
+    </a> for the Modified 1.17 texture pack
+  </li>
+  <li>
+    <a href="https://www.mediafire.com/file/3jzwjqrel5wp6cf/%21____%A74%A7lMiami_%A78%A7lPrivate.zip/file">Miami Private
+    </a> for the Miami Private texture pack
+  </li>
+  <li>
+    <a href="https://www.mediafire.com/file/u26vntto1z2snmc/%2521_%25C2%25A7eRicefault_%25C2%25A78%255B%25C2%25A7f32x%25C2%25A78%255D.zip/file">RiceFault
+    </a> for the RiceFault texture pack
+  </li>
   <li>Note: If I used your project and forgot to credit you here, please contact me at etcher#1849 on discord
   </li>
 </ul>
