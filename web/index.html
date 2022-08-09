@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Precision Client (1.5.2-beta_0.1.8.2)</title>
+    <title>Precision Client (1.5.2-beta_0.1.8.4)</title>
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -25,7 +25,7 @@
     <script type="text/javascript">
         function texture() {
             const texturechoice = prompt(
-                "Choose a texture pack:\n- Default 1.5 [1.5]\n- Default 1.17 [1.17]\n- Modified 1.17 [M1.17]\n- 1.17 Dark [1.17D]\n- Bare Bones [Bones]\n- Tightfault 1.8 [Tight]\n- Miami Private 1.8 [Miami]\n- Ricefault 1.8 [Rice] (Not complete)\n- More coming soon\nTo select a resource pack, enter the characters from inside the brackets in the box below."
+                "Choose a texture pack:\n- Default 1.5 [1.5]\n- Default 1.17 [1.17]\n- Modified 1.17 [M1.17]\n- Bare Bones [Bones]\n- Bombies 180k [Bombies]\n- Tightfault 1.8 [Tight]\n- Miami Private 1.8 [Miami]\n- Ricefault 1.8 [Rice] (Not complete)\n- More coming soon\nTo select a resource pack, enter the characters from inside the brackets in the box below."
             );
 
             let texture = "packs/1.5.epk";
@@ -33,10 +33,10 @@
                 texture = "packs/1.17.epk";
             } else if (texturechoice === "M1.17" || texturechoice === "m1.17") {
                 texture = "packs/M1.17.epk";
-            } else if (texturechoice === "1.17D" || texturechoice === "1.17d") {
-                texture = "packs/1.17D.epk";
             } else if (texturechoice === "Bones" || texturechoice === "bones") {
                 texture = "packs/Bones.epk";
+            } else if (texturechoice === "Bombies" || texturechoice === "bombies") {
+                texture = "packs/Bombies.epk";
             } else if (texturechoice === "Tight" || texturechoice === "tight") {
                 texture = "packs/Tight.epk";
             } else if (texturechoice === "Rice" || texturechoice === "rice") {

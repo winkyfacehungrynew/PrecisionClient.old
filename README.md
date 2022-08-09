@@ -14,54 +14,63 @@
   <a href="https://discord.gg/agFak6frsj">Discord
   </a> server for any questions
 </h4>
-<img src="https://cdn.discordapp.com/attachments/952288902494965811/993937251975307385/unknown.png" alt="alternatetext">
+<img src="https://cdn.discordapp.com/attachments/952288902494965811/1006655724971102208/unknown.png">
 <h2 align="center">Projects Used
 </h2>
-<p align="center">
 <ul>
   <li>
-    <a href="https://github.com/LAX1DUDE/eaglercraft">Eaglercraft
-    </a> for the entire project
+    Fork of <a href="https://github.com/LAX1DUDE/eaglercraft">Eaglercraft
+    </a>
   </li>
   <li>
-    <a href="https://github.com/ayunami2000/ayuncraft">Ayuncraft
-    </a> for the TMI mod and dark GUI texture packs
+    <a href="https://github.com/ayunami2000/ayuncraft">Ayuncraft</a> for the TMI mod and dark GUI on Modified 1.17
   </li>
   <li>
-    <a href="https://www.planetminecraft.com/texture-pack/reimagined-night-panorama">Reimagined Night Panorama
-    </a> for the main menu panorama
+    <a href="https://www.planetminecraft.com/texture-pack/reimagined-night-panorama">Reimagined Night Panorama</a> for the main menu panorama
   </li>
   <li>
-    <a href="https://vanillatweaks.net/">Vanilla Tweaks
-    </a> for the Modified 1.17 texture pack
+    <a href="https://vanillatweaks.net/">Vanilla Tweaks</a> for small tweaks in texture packs
   </li>
   <li>
-    <a href="https://www.mediafire.com/file/3jzwjqrel5wp6cf/%21____%A74%A7lMiami_%A78%A7lPrivate.zip/file">Miami Private
-    </a> for the Miami Private texture pack
+    <a href="https://www.youtube.com/watch?v=Jj3izxG1Mf4">Miami Private</a> for the Miami Private texture pack
   </li>
   <li>
-    <a href="https://www.mediafire.com/file/u26vntto1z2snmc/%2521_%25C2%25A7eRicefault_%25C2%25A78%255B%25C2%25A7f32x%25C2%25A78%255D.zip/file">RiceFault
-    </a> for the RiceFault texture pack
+    <a href="https://discord.com/invite/B6gYvUNvZm">RiceFault</a> for the RiceFault texture pack
+  </li>
+  <li>
+    <a href="https://www.youtube.com/watch?v=Y3tbXdp2MXg">Bombies 180k</a> for the Bombies 180k texture pack
+  </li>
+  <li>
+    <a href="https://www.planetminecraft.com/texture-pack/bare-bones/">Bare Bones</a> for the Bare Bones texture pack
   </li>
   <li>Note: If I used your project and forgot to credit you here, please contact me at etcher#1849 on discord
   </li>
 </ul>
-</p>
 <h2 align="center">Features
 </h2>
-<p align="center">
 <ul>
-  <li>Instant world swapping (faster than eaglercraft by a few miliseconds)
+  <li><b>Instant world swapping</b> - Faster loading when switching worlds
   </li>
-  <li>Fullbright
+  <li><b>Fullbright</b> - Allows player to see perfectly in the dark
   </li>
-  <li>Smart Disconnect
+  <li><b>Smart Disconnect</b> - Confirms whether player wants to disconnect from a server
   </li>
-  <li>Dynamic FOV toggle
+  <li><b>Dynamic FOV toggle</b> - Choose whether to show FOV effects while sprinting, etc.
   </li>
-  <li>8 completed texture packs
+  <li><b>Smooth camera on zoom</b> - Optifine zoom!
+  </li>
+  <li><b>Scoreboard options</b> - Choose to enable/disable scoreboard numbers and scoreboard
+  </li>
+  <li><b>Rain toggle</b> - Disable rain to increase FPS while raining
+  </li>
+  <li><b>Vignette toggle</b> - Choose to enable/disable vignette overlay
+  </li>
+  <li><b>Potion effect GUI</b> - Shows potion effect without needing to go into inventory (<a href="https://github.com/etcherfx/precisionclient/issues/3">#3</a>)
+  </li>
+  <li><b>FPS and coordinates toggle</b> - Choose to show/hide fps and coordinates
+  </li>
+  <li><b>6 completed texture packs</b> - Default 1.17, Modified 1.17, Bombies 180k, Bare Bones, Miami Private, Tightfault (allen bow edit)
   </li>
   <li>Note: Unfinished features are not added on the list
   </li>
 </ul>
-</p>
