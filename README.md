@@ -2,17 +2,27 @@
 </h2>
 <h3 align="center">The official repository for Precision Client.
 </h3>
-<h4 align="center">Client link: 
+<h4 align="center">Client link:
   <a href="https://precisionclient.vercel.app">https://precisionclient.vercel.app
   </a>
 </h4>
-<h4 align="center">The offline download is located 
+<h4 align="center">The offline download is located
   <a href="https://github.com/etcherfx/precisionclient/releases">here
   </a>
 </h4>
-<h4 align="center">Join the 
+<h4 align="center">Join the
   <a href="https://discord.gg/agFak6frsj">Discord
   </a> server for any questions
+</h4>
+<h4 align="center">
+  <a href="https://replit.com/@EtcherFX/precisionclient">
+    <img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg"
+      alt="Run on Repl">
+  </a>
+  <p> </p>
+  <p>
+    Click the blue button that says "Fork Repl"
+  </p>
 </h4>
 <img src="https://cdn.discordapp.com/attachments/952288902494965811/1006655724971102208/unknown.png">
 <h2 align="center">Projects Used
@@ -26,7 +36,8 @@
     <a href="https://github.com/ayunami2000/ayuncraft">Ayuncraft</a> for the TMI mod and dark GUI on Modified 1.17
   </li>
   <li>
-    <a href="https://www.planetminecraft.com/texture-pack/reimagined-night-panorama">Reimagined Night Panorama</a> for the main menu panorama
+    <a href="https://www.planetminecraft.com/texture-pack/reimagined-night-panorama">Reimagined Night Panorama</a> for
+    the main menu panorama
   </li>
   <li>
     <a href="https://vanillatweaks.net/">Vanilla Tweaks</a> for small tweaks in texture packs
@@ -65,11 +76,13 @@
   </li>
   <li><b>Vignette toggle</b> - Choose to enable/disable vignette overlay
   </li>
-  <li><b>Potion effect GUI</b> - Shows potion effect without needing to go into inventory (<a href="https://github.com/etcherfx/precisionclient/issues/3">#3</a>)
+  <li><b>Potion effect GUI</b> - Shows potion effect without needing to go into inventory (<a
+      href="https://github.com/etcherfx/precisionclient/issues/3">#3</a>)
   </li>
   <li><b>FPS and coordinates toggle</b> - Choose to show/hide fps and coordinates
   </li>
-  <li><b>6 completed texture packs</b> - Default 1.17, Modified 1.17, Bombies 180k, Bare Bones, Miami Private, Tightfault (allen bow edit)
+  <li><b>6 completed texture packs</b> - Default 1.17, Modified 1.17, Bombies 180k, Bare Bones, Miami Private,
+    Tightfault (allen bow edit)
   </li>
   <li>Note: Unfinished features are not added on the list
   </li>
