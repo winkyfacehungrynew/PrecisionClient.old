@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Precision Client (1.5.2-beta_0.1.8.4)</title>
+    <title>Precision Client (1.5.2-beta_0.1.8.5)</title>
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -15,7 +15,7 @@
     <meta content="en-US" property="og:locale" />
     <meta content="website" property="og:type" />
     <meta content="//precisionclient.vercel.app" property="og:url" />
-    <meta content="https://cdn.discordapp.com/attachments/952288902494965811/993937251975307385/unknown.png"
+    <meta content="https://cdn.discordapp.com/attachments/952288902494965811/1008211623208570900/unknown.png"
         property="og:image" />
     <meta
         content="Precision Client is an instance of Minecraft 1.5.2 that was ported to the web by LAX1DUDE and forked by EtcherFX. This client has custom resource packs and more."
@@ -25,24 +25,28 @@
     <script type="text/javascript">
         function texture() {
             const texturechoice = prompt(
-                "Choose a texture pack:\n- Default 1.5 [1.5]\n- Default 1.17 [1.17]\n- Modified 1.17 [M1.17]\n- Bare Bones [Bones]\n- Bombies 180k [Bombies]\n- Tightfault 1.8 [Tight]\n- Miami Private 1.8 [Miami]\n- Ricefault 1.8 [Rice] (Not complete)\n- More coming soon\nTo select a resource pack, enter the characters from inside the brackets in the box below."
+                "Choose a texture pack:\n- Default 1.5 [1.5]\n- Default 1.17 [1.17]\n- Bombies 180k [Bombies]\n- Bare Bones [Bones]\n- Modified 1.17 [M1.17]\n- Miami Private [Miami]\n- Nebula [Nebula]\n- Ricefault [Rice] (Not complete)\n- Tightfault [Tight]\n- Walifault [Wali]\nTo select a resource pack, enter the characters from inside the brackets in the box below."
             );
 
             let texture = "packs/1.5.epk";
             if (texturechoice === "1.17") {
                 texture = "packs/1.17.epk";
-            } else if (texturechoice === "M1.17" || texturechoice === "m1.17") {
-                texture = "packs/M1.17.epk";
-            } else if (texturechoice === "Bones" || texturechoice === "bones") {
-                texture = "packs/Bones.epk";
             } else if (texturechoice === "Bombies" || texturechoice === "bombies") {
                 texture = "packs/Bombies.epk";
-            } else if (texturechoice === "Tight" || texturechoice === "tight") {
-                texture = "packs/Tight.epk";
+            } else if (texturechoice === "Bones" || texturechoice === "bones") {
+                texture = "packs/Bones.epk";
+            } else if (texturechoice === "M1.17" || texturechoice === "m1.17") {
+                texture = "packs/M1.17.epk";
+            } else if (texturechoice === "Miami" || texturechoice === "miami") {
+                texture = "packs/Miami.epk";
+            } else if (texturechoice === "Nebula" || texturechoice === "nebula") {
+                texture = "packs/Nebula.epk";
             } else if (texturechoice === "Rice" || texturechoice === "rice") {
                 texture = "packs/Rice.epk";
-            } else if (texturechoice === "Miami" || texturechoice === "miami") {
-                texture = "packs/Miami.Private.epk";
+            } else if (texturechoice === "Tight" || texturechoice === "tight") {
+                texture = "packs/Tight.epk";
+            } else if (texturechoice === "Wali" || texturechoice === "Wali") {
+                texture = "packs/Wali.epk";
             }
 
             window.addEventListener("load", function () {
