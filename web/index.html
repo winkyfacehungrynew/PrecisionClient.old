@@ -17,9 +17,10 @@
 		<script src="classes.js" type="text/javascript"></script>
 		<script type="text/javascript" src="eagswebrtc.js"></script>
 	</head>
-	<body id="game_frame" style="margin: 0; width: 100vw; height: 100vh;">
-		<div id="Selection">
-			<p>Select a pack:</p>
+	<body id="game_frame" style="margin: 0; width: 100vw; height: 100vh; background-image: url(LauncherBG.jpg)">
+		<div id="Selection" style="display: inline-block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(2); background-color: gray;">
+			<h1>Precision Client "Launcher"</h1>
+			<h3>Select a pack:</h3>
 			<select id="Packs">
 				<option>--Choose one--</option>
 				<option value="1.5">Default 1.5</option>
@@ -34,7 +35,7 @@
 				<option value="Wali">Walifault</option>
 			</select>
 			<br/><br/>
-			<input type="button" value="Start" onclick="Start();"/>
+			<input type="button" value="Launch" onclick="Start();"/>
 		</div>
 		<script type="text/javascript">
 			var PackSelect = document.getElementById("Packs");
