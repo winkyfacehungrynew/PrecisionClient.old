@@ -1,6 +1,6 @@
 <h2 align="center">Precision Client
 </h2>
-<h3 align="center">The official repository for Precision Client.
+<h3 align="center">The old repository for Precision Client. Rewritten and open-source version <a href="https://github.com/etcherfx/precisionclient/">here</a>
 </h3>
 <h4 align="center">Client link:
   <a href="https://precisionclient.vercel.app">https://precisionclient.vercel.app
@@ -14,15 +14,7 @@
   <a href="https://discord.gg/agFak6frsj">Discord
   </a> server for any questions
 </h4>
-<h4 align="center">
-  <a href="https://replit.com/@EtcherFX/precisionclient">
-    <img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg"
-      alt="Run on Repl">
-  </a>
-  <p> </p>
-  <p>
-    Click the blue button that says "Fork Repl"
-  </p>
+<h4 align="center">Replit deployment no longer supported
 </h4>
 <img src="https://cdn.discordapp.com/attachments/952288902494965811/1006655724971102208/unknown.png">
 <h2 align="center">Projects Used
